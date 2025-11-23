@@ -8,7 +8,7 @@ This small project is a simple, static web-based quiz app. It uses plain HTML, C
 
 ## Demo / Live Site
 
-- Demo site: http://try.me/
+- Demo site: https://beast-coder27.github.io/online_quiz_system/
 
 Visit the demo to see the app running. Note: the demo may contain an instance of this project's files hosted separately.
 
@@ -60,7 +60,7 @@ This is a small personal/demo project. If you'd like to improve it:
 
 ## Author
 
-Replace this with your name and contact info.
+Umesh kanakatte as a@beast-coder27
 
 ## License
 
