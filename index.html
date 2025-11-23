@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Professional Quiz Platform</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="navbar">
+    <div class="navbar-content">
+      <h2 class="logo">📚 ProQuiz</h2>
+      <span id="user-status" class="user-status"></span>
+    </div>
+  </div>
+
+  <!-- Registration Section -->
+  <div id="registration-section" class="quiz-container registration-view">
+    <div class="quiz-header">
+      <div class="header-icon">🎓</div>
+      <h1>Welcome to ProQuiz</h1>
+      <p class="subtitle">Master Web Development with our comprehensive 25-question quiz</p>
+    </div>
+
+    <form id="registration-form" class="registration-form">
+      <div class="form-intro">
+        <p>Let's get to know you first!</p>
+      </div>
+
+      <div class="form-group">
+        <div class="input-wrapper">
+          <span class="input-icon">👤</span>
+          <input type="text" id="fullname" name="fullname" placeholder="Full Name" required />
+          <span class="input-focus-bg"></span>
+        </div>
+        <span class="form-error" id="error-fullname"></span>
+      </div>
+
+      <div class="form-group">
+        <div class="input-wrapper">
+          <span class="input-icon">✉️</span>
+          <input type="email" id="email" name="email" placeholder="Email Address" required />
+          <span class="input-focus-bg"></span>
+        </div>
+        <span class="form-error" id="error-email"></span>
+      </div>
+
+      <div class="form-group">
+        <div class="input-wrapper">
+          <span class="input-icon">📱</span>
+          <input type="text" id="phone" name="phone" placeholder="Phone Number (Optional)" />
+          <span class="input-focus-bg"></span>
+        </div>
+      </div>
+
+      <div class="form-info">
+        <p>✓ No account needed • ✓ Takes ~10-15 minutes • ✓ Instant results</p>
+      </div>
+
+      <button type="submit" class="btn btn-primary full-width btn-submit">Start Quiz Now</button>
+    </form>
+
+    <div class="registration-features">
+      <div class="feature">
+        <div class="feature-icon">25</div>
+        <p>Questions</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">⚡</div>
+        <p>Instant Feedback</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">📊</div>
+        <p>Detailed Results</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Quiz Section -->
+  <div id="quiz-section" class="quiz-container quiz-view" style="display: none;">
+    <div class="quiz-header">
+      <h1>Web Development & JavaScript Mastery Quiz</h1>
+      <p class="subtitle">Answer all 25 questions</p>
+    </div>
+
+    <div id="quiz" class="quiz-body">
+      <div id="progress" class="progress-bar">
+        <div id="progress-fill" class="progress-fill"></div>
+      </div>
+      <p id="progress-text" class="progress-text">Question 1 of 25</p>
+
+      <div id="question" class="question"></div>
+      <div id="options" class="options"></div>
+
+      <div class="button-group">
+        <button id="prev-btn" class="btn btn-secondary">← Previous</button>
+        <button id="next-btn" class="btn btn-primary">Next →</button>
+      </div>
+
+      <div id="result" class="result-box"></div>
+    </div>
+  </div>
+
+  <!-- Results Section -->
+  <div id="results-section" class="quiz-container results-view" style="display: none;">
+    <div class="quiz-header">
+      <h1>Quiz Results</h1>
+      <p class="subtitle">Your performance summary</p>
+    </div>
+
+    <div id="results-content" class="results-content">
+      <!-- Results will be populated here -->
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>&copy; 2025 ProQuiz Platform. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
