@@ -60,7 +60,7 @@ This is a small personal/demo project. If you'd like to improve it:
 
 ## Author
 
-Replace this with your name and contact info.
+Umesh kanaktte as a @beast-coder27
 
 ## License
 
