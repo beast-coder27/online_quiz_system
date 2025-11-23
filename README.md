@@ -4,7 +4,13 @@ A minimal client-side online quiz application (HTML/CSS/JS).
 
 ## Overview
 
-This small project is a simple, static web-based quiz app. It uses plain HTML, CSS and JavaScript to present the quiz UI and handle the registration/flow locally in the browser. It's intended as a lightweight learning/demo project or starter template.
+This small project is a simple, static web-based quiz app. It uses plain HTML, CSS and JavaScript to present the quiz UI and handle a registration/flow locally in the browser. It's intended as a lightweight learning/demo project or starter template.
+
+## Demo / Live Site
+
+- Demo site: http://try.me/
+
+Visit the demo to see the app running. Note: the demo may contain an instance of this project's files hosted separately.
 
 ## Files
 
@@ -12,12 +18,6 @@ This small project is a simple, static web-based quiz app. It uses plain HTML, C
 - `registration-success.html` — Page shown after successful registration.
 - `script.js` — JavaScript for quiz logic and form handling.
 - `styles.css` — Styling for the pages.
-
-## Features
-
-- Client-side-only (no backend required).
-- Simple registration flow and success page.
-- Easy to customize styles and logic.
 
 ## Quick Start
 
@@ -60,12 +60,8 @@ This is a small personal/demo project. If you'd like to improve it:
 
 ## Author
 
-Umesh kanaktte as a @beast-coder27
+Replace this with your name and contact info.
 
 ## License
 
 This project is provided as-is. You can add an open-source license such as MIT if you wish.
-
----
-
-If you'd like, I can: (a) tailor the README with detailed usage steps based on your exact UI, (b) add a `package.json` and a dev-server, or (c) create a short CONTRIBUTING.md — tell me which.
