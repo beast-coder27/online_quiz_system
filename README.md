@@ -64,4 +64,4 @@ Umesh kanakatte as a@beast-coder27
 
 ## License
 
-This project is provided as-is. You can add an open-source license such as MIT if you wish.
+This is open-source license
